@@ -1,0 +1,56 @@
+/* CSS Stylesheet */
+
+* {
+    -webkit-box-sizing: border-box;			/* Box sizing */
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.logoheader {               					/* Logo header */
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 52%;
+}
+
+.container {
+   display: flex;
+   display: -webkit-flex;
+}
+
+.box1 {                                     /* Box1 */
+    float: left;
+    width: 60%;
+}
+
+.box2 {                                     /* Box2 */
+    float: left;
+    width: 70%;
+    font-family: calibri, helvetica, sans-serif;
+    font-size: 110%;
+    line-height: 1.4em;  
+    margin-left: 50px;
+}
+
+ul.hide_bulletpoints {                     /* Added to hide bullet points */
+    list-style-type: none;
+    margin-left:0;
+    padding-left:0;
+}
+
+.media {                                    /* Grayscale Icons */
+    filter: grayscale(100%)
+}
+
+.portrait {									/* Portrait Image */
+	border-radius: 50%;
+	max-width: 350px;
+	width: 46%;
+    float: right;
+}
+
+.highlight {       							/* Highlight Red Text */
+	font-weight: bold;
+	color: red;
+}
